@@ -12,3 +12,9 @@ body {
 h1 {
   color: white;
 }
+#summary {
+  color: #455bd4;
+}
+.skills-and-hobbies {
+  color: orange;
+}
