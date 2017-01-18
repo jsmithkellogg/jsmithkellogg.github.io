@@ -1,21 +1,36 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 300;
-  background-image: url(background.png);
+  background-color: #C60C30;
   background-size: 1000px
   background-repeat: repeat;
 }
+
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
-  text-align: center;
 }
+
 h1 {
   color: white;
 }
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+h4 {
+  color: white;
+}
+
 #summary {
   color: blue;
 }
+
 .section {
   color: white;
   -webkit-text-stroke-width: 1px;
@@ -24,7 +39,6 @@ h1 {
 
 li {
   color: white;
-
 }
 
 a:link,a:active {
@@ -32,6 +46,70 @@ a:link,a:active {
   text-decoration: none;
 }
 
-h5 {
+.navbar-default {
+  background-color: #000000;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+.nav-tabs.nav-justified>li>a {
+    color: #ffffff;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:active {
+    background-color: #C60C30;
+}
+
+#black-hawks-header {
   text-align: center;
+  height: inherit;
+  align-content: center;
+}
+
+#player-roster {
+  text-align: center;
+  color: #ffffff;
+  margin: 0px 50px 50px 50px;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-12 {
+  height: 60px;
+}
+
+.player-position-table {
+  border: 2px;
+  border-color: #ffffff;
+}
+
+#history {
+  margin: 0px 70px 70px 70px;
+}
+
+.history-header {
+  text-align: center;
+  margin: 40px 0px 20px 0px
+}
+
+.history-subheader {
+  text-align: center;
+  margin: 20px 0px 20px 0px
+}
+
+.page-title {
+  text-align: center;
+}
+
+.history-text {
+  color: #000000;
+  margin: 15px 0px 0px 0px;
+}
+
+.btn-blackhawks, .btn-blackhawks>a:active {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+}
+
+.blackhawks-logo {
+  margin: 20px;
 }
